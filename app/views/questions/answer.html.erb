@@ -1,0 +1,13 @@
+<h1 class="py-3">Stupid Coaching</h1>
+
+<div class="border-start border-4 p-3 mb-4 bg-light">
+  <p class="mb-0"><%= @question %></p>
+  <p class="text-muted italic">You asked:</p>
+</div>
+
+<div class="border-start border-4 bg-warning-subtle p-3 mb-4">
+  <p class="fw-bold mb-0"><%= @answer %></p>
+  <p class="text-muted italic">The coach says:</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path, class: "text-decoration-none"%>
